@@ -4,4 +4,4 @@ Feature: Connexion valide
 	Scenario: Connexion valide 
 		Given je suis sur la page autho  
 		When je me conecte 
-		Then je suis connecté
+		Then je suis connecte
