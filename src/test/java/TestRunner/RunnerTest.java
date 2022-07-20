@@ -7,7 +7,7 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
         features = "Features",
         glue = { "StepDefintions" },
-        plugin = { "pretty","json:target/cucumber-reports/Cucumber.json" },
+        plugin = { "pretty","json:target/cucumber-reports/Cucumber.xml" },
 //tags = { "@TEST_TES-2" },
         tags="@TEST_TES-2",
         dryRun = false)
