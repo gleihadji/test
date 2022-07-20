@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-19T12:05:34.863Z",
+        "start_timestamp": "2022-07-20T09:36:23.608Z",
         "line": 4,
         "name": "Connexion valide",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6547098200,
+              "duration": 7680476600,
               "status": "passed"
             },
             "line": 5,
@@ -25,6 +25,7 @@
           },
           {
             "result": {
+              "duration": 996600,
               "status": "passed"
             },
             "line": 6,
@@ -36,13 +37,13 @@
           },
           {
             "result": {
-              "duration": 222589500,
+              "duration": 471002800,
               "status": "passed"
             },
             "line": 7,
             "name": "je suis connecté",
             "match": {
-              "location": "StepDefintions.StepLogin.je_suis_connecté()"
+              "location": "StepDefintions.StepLogin.je_suis_connecte()"
             },
             "keyword": "Then "
           }
