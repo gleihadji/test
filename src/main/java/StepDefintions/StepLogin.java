@@ -28,7 +28,7 @@ driver.get(baseUrl);
 	}
 
 	@Then("^je suis connecté$")
-	public void je_suis_connecté() throws Throwable {
+	public void je_suis_connecte() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.close();
 		
